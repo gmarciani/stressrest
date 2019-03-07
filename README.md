@@ -13,6 +13,17 @@ pip install locustio
 ```
 
 ## Usage
+If you want to run the stress test defined in `${FILE}`:
+
+```
+locust --locustfile ${FILE} --host ${HOST}
+```
+
+If you want to run the stress test defined in `${FILE}` against the host `${HOST}:${PORT}`:
+
+```
+locust --locustfile ${FILE} --host=${HOST}:${PORT}
+```
 
 
 
